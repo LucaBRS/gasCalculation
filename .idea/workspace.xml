@@ -4,30 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47431501-f8f9-45a4-bda9-5aa04270d8c2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/CarburantiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/CarburantiDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/model/CarburantiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/model/SearchRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/CarburantiService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/gascalcapp/dao/CarburantiControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="47431501-f8f9-45a4-bda9-5aa04270d8c2" name="Changes" comment="in prod">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/CarburantiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/GasCalcAppApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/algorithm/GasConsumptionCalculator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/config/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/GasPriceController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/GasPriceDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/model/GasPrice.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/GasPriceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/GasPriceServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/visualization/GasPriceVisualization.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/gascalcapp/dao/GasPriceDaoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/CarburantiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/CarburantiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/readmeController.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/CarburantiDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/CarburantiDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/model/CarburantiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/model/CarburantiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/CarburantiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/CarburantiService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/gascalcapp/dao/CarburantiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/gascalcapp/dao/CarburantiControllerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,38 +34,65 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2RjkZc7VcdLJbNuFhvjHCAULBGx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/lucab/Documents/Code/Java/GasPriceCalculation",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucab/Documents/Code/Java/GasPriceCalculation&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Tinvention\Documents\Personal\gas_calculation\gas_calculation\src\main\java\com\example\gasscalcapp\dao\algorithm" />
       <recent name="C:\Users\Tinvention\Documents\Personal\gas_calculation\gas_calculation\src\main\java\com\example\gasscalcapp\dao" />
       <recent name="C:\Users\Tinvention\Documents\Personal\gas_calculation\gas_calculation\src\main\java\com\example\gasscalcapp" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.example.gascalcapp" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CarburantiApplication">
+    <configuration name="CarburantiControllerTest.testSearchArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="gas_calculation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.gascalcapp.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.gascalcapp.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.example.gascalcapp.dao.CarburantiControllerTest" />
+      <option name="METHOD_NAME" value="testSearchArea" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="GasPriceCalculation" />
       <method v="2">
@@ -92,6 +106,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarburantiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gas_calculation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.gascalcapp.CarburantiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CarburantiApplication" />
+        <item itemvalue="JUnit.CarburantiControllerTest.testSearchArea" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -102,11 +129,48 @@
       <option name="presentableId" value="Default" />
       <updated>1687770938233</updated>
       <workItem from="1687770939337" duration="4910000" />
-      <workItem from="1705267442445" duration="5629000" />
+      <workItem from="1705267442445" duration="6130000" />
+      <workItem from="1705304627413" duration="7418000" />
+      <workItem from="1705321377745" duration="8902000" />
     </task>
+    <task id="LOCAL-00001" summary="in prod">
+      <option name="closed" value="true" />
+      <created>1705273878598</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705273878598</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="in prod" />
+    <option name="LAST_COMMIT_MESSAGE" value="in prod" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/gascalcapp/dao/CarburantiControllerTest.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
