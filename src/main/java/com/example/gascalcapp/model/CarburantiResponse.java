@@ -1,24 +1,26 @@
 package com.example.gascalcapp.model;
 
-import com.example.gascalcapp.service.CarburantiService;
+import com.fasterxml.jackson.databind.JsonNode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.util.Map;
 
 public class CarburantiResponse {
     private static final Logger LOG = LoggerFactory.getLogger(CarburantiResponse.class);
 
-    public CarburantiResponse(String rawJson) {
+    public CarburantiResponse(Map<Integer, JsonNode> rawJson) {
         LOG.info("u just instantiated the Response");
         this.rawJson = rawJson;
     }
 
-    private String rawJson;
+    private Map<Integer, JsonNode> rawJson;
 
-    public String getRawJson() {
+    public Map<Integer, JsonNode> getRawJson() {
         return rawJson;
     }
 
-    public void setRawJson(String rawJson) {
+    public void setRawJson(Map<Integer, JsonNode>  rawJson) {
         this.rawJson = rawJson;
     }
 }

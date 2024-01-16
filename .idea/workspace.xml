@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47431501-f8f9-45a4-bda9-5aa04270d8c2" name="Changes" comment="in prod">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/CarburantiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="47431501-f8f9-45a4-bda9-5aa04270d8c2" name="Changes" comment="now fixed log and testing doing rest">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/CarburantiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/CarburantiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/readmeController.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/CarburantiDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/CarburantiDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/model/CarburantiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/model/CarburantiResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/CarburantiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/CarburantiService.java" afterDir="false" />
@@ -131,7 +129,9 @@
       <workItem from="1687770939337" duration="4910000" />
       <workItem from="1705267442445" duration="6130000" />
       <workItem from="1705304627413" duration="7418000" />
-      <workItem from="1705321377745" duration="8902000" />
+      <workItem from="1705321377745" duration="9823000" />
+      <workItem from="1705400263537" duration="2151000" />
+      <workItem from="1705418639610" duration="7491000" />
     </task>
     <task id="LOCAL-00001" summary="in prod">
       <option name="closed" value="true" />
@@ -141,7 +141,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705273878598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="now fixed log and testing doing rest">
+      <option name="closed" value="true" />
+      <created>1705338715996</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705338715996</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,15 +168,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="in prod" />
-    <option name="LAST_COMMIT_MESSAGE" value="in prod" />
+    <MESSAGE value="now fixed log and testing doing rest" />
+    <option name="LAST_COMMIT_MESSAGE" value="now fixed log and testing doing rest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/example/gascalcapp/dao/CarburantiControllerTest.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="2" />
+          <line>75</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

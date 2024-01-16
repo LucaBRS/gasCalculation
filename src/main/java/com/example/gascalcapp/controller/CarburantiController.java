@@ -2,6 +2,7 @@ package com.example.gascalcapp.controller;
 
 import com.example.gascalcapp.model.CarburantiResponse;
 import com.example.gascalcapp.service.CarburantiService;
+import com.fasterxml.jackson.core.JsonProcessingException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
@@ -19,7 +20,7 @@ public class CarburantiController {
     }
 
     @GetMapping("/prices/{regionId}")
-    public ResponseEntity<String> searchArea(@PathVariable("regionId") int regionId) {
+    public ResponseEntity<String> searchArea(@PathVariable("regionId") int regionId) throws JsonProcessingException {
         LOG.info("U are in controller the id is: "+regionId);
         // You can create a separate class for SearchRequest if needed
         int region = regionId;
@@ -27,6 +28,6 @@ public class CarburantiController {
         String town = null;
 
         CarburantiResponse response = carburantiService.searchArea(region, province, town);
-        return new ResponseEntity<>(response.getRawJson(), HttpStatus.OK);
+        return new ResponseEntity<>(response.getRawJson().toString(), HttpStatus.OK);
     }
 }
