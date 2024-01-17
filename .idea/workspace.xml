@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47431501-f8f9-45a4-bda9-5aa04270d8c2" name="Changes" comment="now fixed log and testing doing rest">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="47431501-f8f9-45a4-bda9-5aa04270d8c2" name="Changes" comment="change the return type abd add logic for all regioni">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/exception/readmeException.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/model/readmeModel.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/util/readmeUtil.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/CarburantiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/controller/CarburantiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/CarburantiDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/CarburantiDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/model/CarburantiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/model/CarburantiResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/CarburantiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/CarburantiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/gascalcapp/dao/CarburantiControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/gascalcapp/dao/CarburantiControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/dao/readmeDao.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/gascalcapp/service/readmeService.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +130,9 @@
       <workItem from="1705304627413" duration="7418000" />
       <workItem from="1705321377745" duration="9823000" />
       <workItem from="1705400263537" duration="2151000" />
-      <workItem from="1705418639610" duration="7491000" />
+      <workItem from="1705418639610" duration="8130000" />
+      <workItem from="1705438414704" duration="4155000" />
+      <workItem from="1705483391490" duration="621000" />
     </task>
     <task id="LOCAL-00001" summary="in prod">
       <option name="closed" value="true" />
@@ -149,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705338715996</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change the return type abd add logic for all regioni">
+      <option name="closed" value="true" />
+      <created>1705431519963</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705431519963</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +178,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="in prod" />
     <MESSAGE value="now fixed log and testing doing rest" />
-    <option name="LAST_COMMIT_MESSAGE" value="now fixed log and testing doing rest" />
+    <MESSAGE value="change the return type abd add logic for all regioni" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the return type abd add logic for all regioni" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
